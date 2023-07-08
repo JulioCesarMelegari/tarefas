@@ -1,0 +1,58 @@
+{
+    "users":[
+      {
+        "id": 1,
+        "name": "Harry Potter",
+        "email": "harrypotter@hotmail.com",
+        "gender": "M"
+    },
+    {
+        "id": 2,
+        "name": "Hermione Granger",
+        "email": "hermionegranger@gmail.com",
+        "gender": "F"
+    },
+    {
+        "id": 3,
+        "name": "Draco Malfoy",
+        "email": "dracomalfoy@hotmail.com",
+        "gender": "M"
+    },
+    {
+        "id": 4,
+        "name": "Lord Valdemort",
+        "email": "lordvaldemort@gmail.com.",
+        "gender": "M"
+      }
+    ],
+    "tasks":[
+      {
+          "id": 1,
+          "name": "Enfrentar Lord Valdemort",
+          "description":"Achar as Reliquias da Morte, as quais dão poder total sobre a morte para quem as possui",
+          "userId": 1,
+          "completed": false
+      },
+      {
+          "id": 2,
+          "name": "Ajudar o Harry Potter",
+          "description":"Oferecer ajuda ao Harry Potter a aniquilar o Lord Valdemort",
+          "userId": 2,
+          "completed": false
+      },
+      {
+          "id": 3,
+          "name": "Competir com Harry Potter",
+          "description":"Por pertencer a casa Sonserina, esnoba os nascidos-trouxa, alunos da Grifinória",
+          "userId": 3,
+          "completed": true
+      },
+      {
+          "id": 4,
+          "name": "Matar Harry Potter",
+          "description":"Segundo a profecia feita por Sibilia, um menino teria o poder de derrotar o Lord Valdemort",
+          "userId": 4,
+          "completed": false
+      }
+    ]
+}
