@@ -14,13 +14,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
 import {MatTableModule} from '@angular/material/table';
+import { TaskDetailsComponent } from './pages/task-details/task-details.component';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    UsersListComponent
+    UsersListComponent,
+    TaskDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import {MatTableModule} from '@angular/material/table';
     MatIconModule,
     MatSnackBarModule,
     CommonModule,
-    MatTableModule
+    MatTableModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

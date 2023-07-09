@@ -17,6 +17,12 @@ container__header{
   }
   width: 100%;
   display: flex;
-  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-
+container__actions{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
